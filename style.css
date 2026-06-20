@@ -2,7 +2,7 @@ body{
     background-color: #000000;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     align-items: center;
     font-family: "Chelsea Market";
 }
@@ -47,6 +47,7 @@ body{
     color: white;
     margin-bottom: 40px;
     font-size: 23px;
+    
 }
 #line{
     background-color: aliceblue;
@@ -54,6 +55,8 @@ body{
     height: 30vw;
     max-height: 300px;
     width:0.8px;
+    margin-bottom: 200px;
+
     align-self: center;
     opacity: 0.6;
 }
@@ -68,7 +71,7 @@ body{
 .side_container{
     justify-content: center;
     display: flex;
-  
+    margin-bottom: 200px;
     height: 25vw;
     width: 25vw;
     max-height: 250px;
@@ -105,4 +108,7 @@ body{
     transition: cubic-bezier(.65,.05,.36,1) 0.1s all;
     border-style: solid;
     border-width: 2px;
+}
+#copyrights{
+    color:white;
 }
